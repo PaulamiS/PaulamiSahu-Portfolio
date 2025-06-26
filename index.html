@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Paulami Sahu | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+ 
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+  <a href="#hero">Pau's<span class="highlight">Profile</span></a>
+</div>
+
+
+  </div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+         <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger"><i class="fas fa-bars"></i></div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content" data-aos="fade-up">
+      <h1 class="gradient-name">Hi, I’m <span>Paulami Sahu</span></h1>
+      <h2><span id="typed-text"></span></h2>
+      <div class="buttons">
+        <a href="https://www.linkedin.com/in/paulami-sahu-6a995728a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="btn">View Linkedin</a>
+        <a href="https://github.com/PaulamiS" class="btn">View GitHub</a>
+        
+
+        
+      </div>
+    </div>
+    <div class="hero-image" data-aos="zoom-in">
+      <div class="glow-frame">
+        <img src="Paulami.jpeg" alt="Paulami Sahu"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section" data-aos="fade-up">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-text">
+      Hello! I'm Paulami Sahu, a passionate and curious engineering student who loves to solve problems through technology.I specialize
+      in coding and enjoy exploring new areas in development-from web development to innovative applications.When I am not 
+      building,I'm learning,sketching or collaborating with others to bring great ideas to life.
+    </p>
+    <br>
+    <br>
+    <div class="resume-section">
+  <p class="resume-intro">
+    To learn more about my background and experience, feel free to view my resume here.
+  </p>
+  <div class="resume-button-wrapper">
+    <a href="Paulamiresume.pdf" class="btn resume-btn" target="_blank">View Resume</a>
+  </div>
+</div>
+
+
+
+  
+  </section>
+
+ 
+
+  <!-- Skills Section -->
+  <section id="skills" class="section" data-aos="fade-up">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-list">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>Python</span>
+      <span>Java</span>
+      <span>C/C++</span>
+      <span>Figma</span>
+    </div>
+  </section>
+
+
+
+ <!-- Education Section -->
+<section id="education" class="section" data-aos="fade-up">
+  <h2 class="section-title">Education</h2>
+
+  <div class="education-block">
+    <h3>B.Tech in Computer Science and Engineering(AI & ML)</h3>
+    <p><strong>University:</strong> Vellore Institute Of Technology</p>
+    <p><strong>Duration:</strong> 2023– 2027</p>
+   <!---- <p><strong>CGPA:</strong> 8.6 / 10</p>-->
+
+    <button class="btn toggle-btn" onclick="toggleCoursework()">Show Coursework</button>
+
+    <div id="coursework" class="coursework hidden">
+      <h4>Relevant Coursework</h4>
+      <ul>
+        <li>Data Structures and Algorithms</li>
+        <li>Design Algorithm and Analysis</li>
+        <li>Object-Oriented Programming (OOPs)</li>
+        <li>Digital System and Design</li>
+        <li>Microprocessor and Microcontrollers</li>
+        <li>Computer Architecture and Organization(Cao)</li>
+        <li>Theory Of Computation(TOC)</li>
+        <li>Probability and Statistics</li>
+        <li>Complex Variable and Linear Alzebra</li>
+        <li>Discrete Mathematics</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- High School -->
+  <div class="education-block">
+    <h3>Higher Secondary (Class 12)</h3>
+    <p><strong>School:</strong> Sudhir Memorial Institute</p>
+    <p><strong>Board:</strong> CBSE</p>
+    <p><strong>Year:</strong> 2020-2022</p>
+    <p><strong>Percentage:</strong> 75%</p>
+
+    <button class="btn toggle-btn" onclick="toggleAchievements('hs-achievements', this)">Show Achievements</button>
+
+    <div id="hs-achievements" class="achievements hidden">
+      <h4>Achievements</h4>
+      <ul>
+        <li>Scored  92% in Computer Science At CBSE 12th Board Exam</li>
+        <li>Lead a team while making a Python and DBMS based project (Hospital Management)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Secondary School -->
+  <div class="education-block">
+    <h3>Secondary School (Class 10)</h3>
+    <p><strong>School:</strong> Julien Day School ,Ganganagar</p>
+    <p><strong>Board:</strong> ICSE</p>
+    <p><strong>Year:</strong> 2008-2020</p>
+    <p><strong>Percentage:</strong> 90%</p>
+
+    <button class="btn toggle-btn" onclick="toggleAchievements('ss-achievements', this)">Show Achievements</button>
+
+    <div id="ss-achievements" class="achievements hidden">
+      <h4>Achievements</h4>
+      <ul>
+        <li>Scored 95% in Computer Science at ICSE board Exam</li>
+        <li>Bronze Medal Winner in InterSchool Mathematics Olympiad</li>
+        <li>Won Silver Medal in Axis Bank Drawing Competition</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+</section>
+
+</section>
+
+
+  <!-- Projects Section -->
+<section id="projects" class="section" data-aos="fade-up">
+  <h2 class="section-title">Projects</h2>
+  <div class="project-grid">
+
+    <!-- Project 1 -->
+<div class="project-card">
+  <h3>Currency Converter</h3>
+  <img src="currency_converter.jpeg" alt="Currency Converter" class="project-img small" />
+  <br>
+  <p>A sleek web app to convert currencies using real-time exchange rates.</p>
+  <br>
+  <a href="https://github.com/PaulamiS/Pau-scurrencyconverter.git" class="btn" target="_blank">View on GitHub</a>
+</div>
+
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="images/spotify-clone.png" alt="Spotify UI Clone" class="project-img" />
+      <h3>Spotify UI Clone</h3>
+      <p>A responsive clone of Spotify’s layout with dark/light mode toggle.</p>
+      <br>
+      <a href="https://github.com/PaulamiS/spotify-ui-clone" class="btn" target="_blank">View on GitHub</a>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      
+      <h3>Amazonclone</h3>
+
+      <img src="amazon.jpeg" alt="Amazonclone" class="project-img" />
+      <br>
+      <p>Developed a fully responsive Amazon homepage clone using only HTML & CSS. This project replicates Amazon’s UI with a structured navigation bar, product grid, and a clean, mobile-friendly design</p>
+      <br>
+      <a href="https://github.com/PaulamiS/Amazon-clone-Website.git" class="btn" target="_blank">View on GitHub</a>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="contact" class="contact-section">
+  <!-- ✨ Get In Touch header block -->
+  <h2>Contact Me</h2>
+  <br>
+  <p class="subtext">
+   Got something exciting in mind or looking for a creative partner? Drop me a message using the form below or connect through my social links.
+  </p>
+  <br>
+  <br>
+
+  <div class="contact-details">
+    <p><strong>Email:</strong>
+       <a href="mailto:sahupaulami97@gmail.com">sahupaulami97@gmail.com</a></p>
+    <p><strong>Phone:</strong>
+       <a href="tel:+919883529949">+91 98835 29949</a></p>
+    <p><strong>Location:</strong> Kolkata, India</p>
+  </div>
+
+   <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+
+
+
+  <!-- Contact Section -->
+  <!--<section id="contact" class="section" data-aos="fade-up">
+    <h2 class="section-title">Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>-->
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    // Typed text effect
+    const typed = new Typed("#typed-text", {
+      strings: ["Future Software Engineer", "Web Developer", "Tech Enthusiast"],
+      typeSpeed: 50,
+      backSpeed: 25,
+      loop: true
+    });
+
+    // AOS init
+    AOS.init();
+
+    // Canvas background
+   
+    let w, h;
+    const particles = [];
+
+    function resizeCanvas() {
+      w = canvas.width = window.innerWidth;
+      h = canvas.height = window.innerHeight;
+    }
+    window.addEventListener("resize", resizeCanvas);
+    resizeCanvas();
+
+    function createParticles(count) {
+      for (let i = 0; i < count; i++) {
+        particles.push({
+          x: Math.random() * w,
+          y: Math.random() * h,
+          radius: Math.random() * 2,
+          speedX: Math.random() * 0.5,
+          speedY: Math.random() * 0.5
+        });
+      }
+    }
+
+    function drawParticles() {
+      ctx.clearRect(0, 0, w, h);
+      ctx.fillStyle = "rgba(122, 79, 255, 0.4)";
+      particles.forEach(p => {
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+        ctx.fill();
+        p.x += p.speedX;
+        p.y += p.speedY;
+        if (p.x > w || p.y > h) {
+          p.x = Math.random() * w;
+          p.y = Math.random() * h;
+        }
+      });
+      requestAnimationFrame(drawParticles);
+    }
+
+    createParticles(100);
+    drawParticles();
+  </script>
+
+ 
+<script>
+  let courseworkVisible = false;
+  function toggleCoursework() {
+    const content = document.getElementById("coursework");
+    const button = document.querySelector(".toggle-btn");
+    courseworkVisible = !courseworkVisible;
+    content.classList.toggle("hidden", !courseworkVisible);
+    button.textContent = courseworkVisible ? "Hide Coursework" : "Show Coursework";
+  }
+
+  function toggleAchievements(id, btn) {
+    const section = document.getElementById(id);
+    const isHidden = section.classList.contains("hidden");
+    section.classList.toggle("hidden");
+    btn.textContent = isHidden ? "Hide Achievements" : "Show Achievements";
+  }
+</script>
+
+
+
+
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-content">
+    <h2 class="footer-logo">Pau's <span class="highlight">Profile</span></h2>
+    <p class="made-with-love">Made with ❤️ by Paulami Sahu</p>
+    <div class="footer-links">
+      <a href="mailto:sahupaulami97@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/PaulamiS" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/paulami-sahu-6a995728a" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <p class="copyright">&copy; 2025 Paulami Sahu. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  /* smooth scroll for all internal links */
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      e.preventDefault();
+      document.querySelector(a.getAttribute('href'))
+              .scrollIntoView({behavior: 'smooth'});
+    });
+  });
+
+  /* highlight nav item when its section is in view */
+  const navContact = document.querySelector('.nav-contact');
+  const section    = document.querySelector('#contact');
+
+  const observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry =>
+        navContact.classList.toggle('active', entry.isIntersecting)
+      );
+    }, {rootMargin: '-50% 0px -50% 0px'}  // triggers around mid-viewport
+  );
+  observer.observe(section);
+</script>
+
+
+
+
+
+</body>
+</html>
