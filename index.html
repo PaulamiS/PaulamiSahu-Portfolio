@@ -385,6 +385,7 @@
     /* Auto-close drawer after a link is clicked (nice UX) */
     navLinks.querySelectorAll('a').forEach(link =>
       link.addEventListener('click', () => {
+        console.log('🍔 clicked');  
         burger.classList.remove('active');
         navLinks.classList.remove('show');
       })
