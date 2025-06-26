@@ -371,6 +371,27 @@
 </script>
 
 
+<script>
+  /* Wait until the DOM is ready just in case this script loads <head> */
+  document.addEventListener('DOMContentLoaded', () => {
+    const burger   = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    burger.addEventListener('click', () => {
+      burger.classList.toggle('active'); // rotates the icon (optional)
+      navLinks.classList.toggle('show'); // slides the panel in/out
+    });
+
+    /* Auto-close drawer after a link is clicked (nice UX) */
+    navLinks.querySelectorAll('a').forEach(link =>
+      link.addEventListener('click', () => {
+        burger.classList.remove('active');
+        navLinks.classList.remove('show');
+      })
+    );
+  });
+</script>
+
 
 
 
