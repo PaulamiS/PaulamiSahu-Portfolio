@@ -34,7 +34,7 @@ This is my personal portfolio website showcasing my skills, projects, education,
 ---
 
 ## 📸 Preview
-*(Add a screenshot of your portfolio page here)*
+
 
 <img width="1346" height="617" alt="image" src="https://github.com/user-attachments/assets/d5f79e55-466c-4369-8f6a-ebebb3cab94f" />
 
@@ -46,9 +46,13 @@ This is my personal portfolio website showcasing my skills, projects, education,
    ```bash
    git clone https: https://github.com/PaulamiS/PaulamiSahu-Portfolio.git
 
-   📬 Contact
 
-If you'd like to connect or collaborate:
+
+## 📬 Let's Connect!
+
+I'm always happy to network, collaborate, or just chat!  
+Feel free to reach out — I’d love to hear from you. 😊
+
 
 Email: sahupaulami97@gmail.com
 
