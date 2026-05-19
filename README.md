@@ -3,7 +3,7 @@
 
 This is my personal portfolio website showcasing my skills, projects, education, and experience. Designed to be clean, responsive, and visually appealing across all devices.
 
-## 🚀 Live Demo[[
+## 🚀 Live Demo
 https://portfolio-ps-1kpe.vercel.app/<!-- Replace with your hosted link -->
 
 ---
